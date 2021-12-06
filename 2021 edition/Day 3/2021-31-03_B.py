@@ -1,14 +1,6 @@
 with open('2021-31-03_Input.txt') as file:
     input = file.readlines()
 
-<<<<<<< HEAD
-maxInput = ""
-minInput = ""
-
-
-
-
-=======
 firstGammaValue = None
 firstEpsilonValue = None
 gammaRate = ""
@@ -51,6 +43,5 @@ for bit in input[0]:
                 epsilonRate += "0"
         else :
             epsilonRate += firstEpsilonValue[len(epsilonRate)]
->>>>>>> 145401152f7a4daa7b694b7bee7018eb10630cda
 
 print(int(gammaRate, 2) * int(epsilonRate, 2))
